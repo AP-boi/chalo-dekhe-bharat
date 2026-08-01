@@ -45,7 +45,7 @@ export default function DigitalMuseumPage() {
 
   return (
     <div className="relative w-full min-h-screen pt-32 sm:pt-36 pb-20 overflow-hidden flex flex-col justify-between select-none bg-[#1B1410]">
-      {/* Background AI Video & Fallback Layer */}
+      {/* Background Video & Fallback Layer */}
       <VideoBackground videoFileName={era.videoFileName} eraTitle={era.title} themeColor={era.themeColor} />
 
       {/* Hotspots Overlaid on Video */}

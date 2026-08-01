@@ -317,7 +317,7 @@ export default function HomePage() {
             <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-30 transition-opacity">
               <Map size={100} className="text-[#FFB100]" />
             </div>
-            <h3 className="font-display text-4xl text-[#FFF6E9] mb-4 uppercase">AI Travel Planner</h3>
+            <h3 className="font-display text-4xl text-[#FFF6E9] mb-4 uppercase">Travel Planner</h3>
             <p className="font-body text-[#FFF6E9]/70 mb-8 leading-relaxed">
               Explore future personalized travel itineraries tailored for duration, budget, and cultural interests.
             </p>

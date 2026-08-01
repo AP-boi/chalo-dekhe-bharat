@@ -86,7 +86,7 @@ Return ONLY a valid JSON object strictly adhering to this structure without mark
           }
         }
       } catch (err) {
-        console.warn("Gemini API call failed, falling back to cached itinerary", err);
+        console.warn("External API call failed, falling back to cached itinerary", err);
       }
     }
 

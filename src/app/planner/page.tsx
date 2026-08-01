@@ -86,10 +86,10 @@ export default function PlannerPage() {
       <div className="max-w-7xl mx-auto mb-8 text-center sm:text-left flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-[#FF6A2B]/20 pb-6">
         <div>
           <span className="px-3 py-1 rounded-full bg-[#FFB100]/10 border border-[#FFB100]/30 text-[#FFB100] text-xs font-bold uppercase tracking-widest inline-flex items-center gap-1.5 mb-3">
-            <Sparkles className="w-3.5 h-3.5 text-[#FF6A2B]" /> AI Travel Concierge
+            <Sparkles className="w-3.5 h-3.5 text-[#FF6A2B]" /> Smart Travel Concierge
           </span>
           <h1 className="font-display text-4xl sm:text-6xl font-bold uppercase tracking-tight text-[#FFF6E9]">
-            AI Travel <span className="text-[#FF6A2B]">Planner</span>
+            Travel <span className="text-[#FF6A2B]">Planner</span>
           </h1>
           <p className="font-body text-[#FFF6E9]/70 text-sm sm:text-base mt-2 max-w-xl">
             Design personalized Indian itineraries complete with day-by-day activities, local culinary guides, ₹ cost estimates, and real-time 3D globe mapping.

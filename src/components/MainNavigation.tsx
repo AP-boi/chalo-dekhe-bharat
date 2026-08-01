@@ -18,9 +18,9 @@ const NAV_LINKS = [
 
 const SEARCH_DATA = [
   // Primary Sections
-  { id: 'museum', title: 'AI Digital Museum', icon: Landmark, href: '/museum', type: 'Experience' },
+  { id: 'museum', title: 'Digital Museum', icon: Landmark, href: '/museum', type: 'Experience' },
   { id: 'gallery', title: '3D Photo Gallery', icon: Camera, href: '/gallery', type: 'Experience' },
-  { id: 'planner', title: 'AI Itinerary Planner', icon: Compass, href: '/planner', type: 'Tool' },
+  { id: 'planner', title: 'Itinerary Planner', icon: Compass, href: '/planner', type: 'Tool' },
   { id: 'game', title: 'Heritage Quiz Mini-Game', icon: Target, href: '/game', type: 'Interactive' },
   
   // Historical Eras

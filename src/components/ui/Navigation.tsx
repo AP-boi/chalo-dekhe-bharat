@@ -9,7 +9,7 @@ const navItems = [
   { name: "Home", href: "/", icon: Compass },
   { name: "Digital Museum", href: "/museum", icon: Landmark },
   { name: "Gallery", href: "/gallery", icon: Image },
-  { name: "AI Planner", href: "/planner", icon: MapPin },
+  { name: "Travel Planner", href: "/planner", icon: MapPin },
   { name: "Landmark Quiz", href: "/game", icon: Gamepad2 },
 ];
 

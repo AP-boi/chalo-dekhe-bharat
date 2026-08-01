@@ -16,8 +16,8 @@
   * Interactive virtual 3D artifacts exhibition powered by React Three Fiber (`@react-three/fiber` & `@react-three/drei`).
   * Video backdrop integration, lighting controls, and interactive modal overlays for deep dive history.
 
-* **✈️ Smart AI Travel Planner (`/planner`)**:
-  * Custom trip itinerary builder powered by Gemini LLM (`@ai-sdk/google`).
+* **✈️ Smart Travel Planner (`/planner`)**:
+  * Custom trip itinerary builder with rich destination details.
   * Generates personalized day-by-day travel plans, budget estimates, cultural etiquette guides, and local cuisine recommendations across Indian states and cities.
 
 * **🖼️ 3D Photography & Cultural Gallery (`/gallery`)**:
@@ -48,9 +48,8 @@
 * **Animations**: [Framer Motion v12](https://motion.dev/)
 * **Smooth Scroll**: `@studio-freight/lenis` / `lenis`
 
-### **State Management & AI**
+### **State Management**
 * **State Management**: [Zustand](https://github.com/pmndrs/zustand)
-* **AI & LLM Integration**: Vercel AI SDK (`ai`), `@ai-sdk/google` (Google Gemini)
 
 ---
 
@@ -61,11 +60,11 @@ CHALO DEKHE BHARAT/
 ├── public/                 # Static assets (images, video backgrounds, models)
 ├── src/
 │   ├── app/                # Next.js App Router pages & API routes
-│   │   ├── api/            # API endpoints (e.g. Gemini LLM itinerary generator)
+│   │   ├── api/            # API endpoints (e.g. itinerary generator)
 │   │   ├── gallery/        # Cultural 3D Photography Gallery page
 │   │   ├── game/           # Interactive Heritage Game page
 │   │   ├── museum/         # Virtual 3D Museum page
-│   │   ├── planner/        # AI Travel Planner page
+│   │   ├── planner/        # Smart Travel Planner page
 │   │   ├── globals.css     # Global styles & Tailwind CSS theme configuration
 │   │   ├── layout.tsx      # Root layout & providers
 │   │   └── page.tsx        # Hero Landing Page
@@ -102,14 +101,7 @@ cd "chalo-dekhe-bharat"
 npm install
 ```
 
-### **2. Set Up Environment Variables**
-Create a `.env.local` file in the root directory and add your Google Gemini API Key for the AI Travel Planner:
-
-```env
-GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key_here
-```
-
-### **3. Run the Development Server**
+### **2. Run the Development Server**
 ```bash
 npm run dev
 ```
